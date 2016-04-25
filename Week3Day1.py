@@ -119,4 +119,4 @@ OOP, MVC, SQL, reversing strings
 
 by adding '%email%' will give you all the ones with THAT specific email address
 by adding LIKE 'V%' it will give you all variables that start with that letter
-
+by adding LIKE '%V' it will give you all variables that end with that letter
