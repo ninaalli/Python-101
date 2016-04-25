@@ -117,4 +117,6 @@ will need to put the identifying table if you are looking at more than two table
 
 OOP, MVC, SQL, reversing strings
 
+by adding '%email%' will give you all the ones with THAT specific email address
+by adding LIKE 'V%' it will give you all variables that start with that letter
 
