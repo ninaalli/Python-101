@@ -15,5 +15,7 @@ type cat in command line to bring in items from Bash/Terminal
 Join is to hit two tables at once and get one result
 INNER JOIN - commonly used,you have to tell it the foreign key
 
-Look at the various SQL joins
+Look at the various SQL joins: http://www.codeproject.com/Articles/33052/Visual-Representation-of-SQL-Joins
+
+
 
