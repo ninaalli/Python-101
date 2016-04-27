@@ -55,3 +55,6 @@ Describe the communication options for the target resource.
 
 8	TRACE
 Performs a message loop back test along with the path to the target resource.
+
+Best explanation of MVC EVER!!!!
+https://realpython.com/blog/python/the-model-view-controller-mvc-paradigm-summarized-with-legos/
