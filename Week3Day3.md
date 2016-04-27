@@ -4,6 +4,9 @@ To the extent that systems conform to the constraints of REST they can be called
 
 In computer programming, create, read, update and delete[1] (as an acronym CRUD) (Sometimes called SCRUD with an "S" for Search) are the four basic functions of persistent storage.[2] Sometimes CRUD is expanded with the words retrieve instead of read, modify instead of update, or destroy instead of delete. It is also sometimes used to describe user interface conventions that facilitate viewing, searching, and changing information; often using computer-based forms and reports. 
 
+REST - there is no connection maintained between the sites.
+API allows people to use their info for free.
+
 Operation	SQL	HTTP	DDS
 Create	INSERT	PUT / POST	write
 Read (Retrieve)	SELECT	GET	read / take
@@ -17,9 +20,12 @@ DELETE
 OPTIONS
 HEAD
 TRACE
-
-
 CONNECT
 
+pip3 install
+instead of going into the db, you can hit up the url.
+json = java script object notation
 
+End Point = url that you are calling with the request
 
+raw  input and concatenate what the person is looking for
