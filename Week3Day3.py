@@ -10,3 +10,12 @@ Read (Retrieve)	SELECT	GET	read / take
 Update (Modify)	UPDATE	POST / PUT / PATCH	write
 Delete (Destroy)	DELETE	DELETE	dispose
 
+GET
+POST
+PUT
+DELETE
+OPTIONS
+HEAD
+TRACE
+CONNECT
+
