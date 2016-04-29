@@ -1,4 +1,4 @@
-Variable: 
+Variable: Python variables do not need explicit declaration to reserve memory space. The declaration happens automatically when you assign a value to a variable. The equal sign (=) is used to assign values to variables. The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable.
 
 List: most versatile of Python's compound data types. A list contains items separated by commas and enclosed within square brackets ([]).
 
@@ -18,18 +18,28 @@ Data Structure:
       a = "gorillas" # strings
       t = True       # booleans
 
-
-
-Iterate:
+Iterate: general term for taking each item of something, one after another. Any time you use a loop, explicit or implicit, to go over a group of items, that is iteration. In Python, iterable and iterator have specific meanings.
+            
+            An ITERABLE is:
+            
+            anything that can be looped over (i.e. you can loop over a string or file)
+            anything that can appear on the right-side of a for-loop:  for x in iterable: ...
+            anything you can call with iter() that will return an ITERATOR:  iter(obj)
+            an object that defines __iter__ that returns a fresh ITERATOR, or it may have a __getitem__ method suitable for indexed lookup.
+            An ITERATOR is:
+            
+            an object with state that remembers where it is during iteration
+            an object with a __next__ method that:
+            returns the next value in the iteration
+            updates the state to point at the next value
+            signals when it is done by raising StopIteration
+            an object that is self-iterable (meaning that it has an __iter__ method that returns self).
 
 Invoke:
 
-Instantiate:
-
-
 Parameters vs arguments:
 
-Object Oriented Programming:
+Object Oriented Programming:(http://www.tutorialspoint.com/python/python_classes_objects.htm)
 Class: A user-defined prototype for an object that defines a set of attributes that characterize any object of the class. The attributes are data members (class variables and instance variables) and methods, accessed via dot notation.
 Class variable: A variable that is shared by all instances of a class. Class variables are defined within a class but outside any of the class's methods. Class variables are not used as frequently as instance variables are.
 Data member: A class variable or instance variable that holds data associated with a class and its objects.
