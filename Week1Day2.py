@@ -32,10 +32,24 @@ if to elif to else
 Tab to show what part of the function belongs where
 
 
+IF you wanted to store more data:
+  Can be assigned to variables
+  Can hold different data types at once
+  The values are indexed for us starting at zero  
   
+Functions and Statements
+We declare our functions with the word def for define
+Functions follow the same naming principles as declaring variables
+Snake case
+Do not start with numbers or special characters
   
+LOOPS
+One of the core functionalities of programming are loops
+Loops are used to run a code block (a piece of code) over and over again until a condition is met
+item is a placeholder for the current element in the list. The word item could be any name you want it to be.
+Here's one more example using range() method  
   
-  
-  
-  
+WHILE LOOP:
+Like the For Loop we use this to run a code block over and over again.
+The main difference is instead of passing an iterable data structure, we will be running the code block until a condition is no longer true.
   
