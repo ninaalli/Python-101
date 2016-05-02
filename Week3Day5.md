@@ -134,3 +134,4 @@ String: collection of alphanumeric characters (letters, numbers, punctuation and
 Terminal
 
 Value: returns a list of all the values available in a given dictionary.
+
