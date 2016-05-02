@@ -76,3 +76,61 @@ White Space:
 Branches: 
       basically only one kind of branch in Python, the 'if' statement. The simplest form of the if statement simple executes a block of code only if a given predicate is true, and skips over it if the predicate is false. 
       can also add "elif" (short for "else if") branches onto the if statement. If the predicate on the first “if” is false, it will test the predicate on the first elif, and run that branch if it’s true. If the first elif is false, it tries the second one, and so on. Note, however, that it will stop checking branches as soon as it finds a true predicate, and skip the rest of the if statement. You can also end your if statements with an "else" branch. If none of the other branches are executed, then python will run this branch.
+
+Arguments: to kinds of parameters. args (arguments) and kwargs (keyword arguments) args are required parameters, while kwargs have default values set.
+
+Assign: 
+
+Assignment Operator: 
+
+Block:  piece of Python program text that is executed as a unit. The following are blocks: a module, a function body, and a class definition. 
+
+Boolean: type of value that can be either true or false (with Capital T and F {True}{False}
+
+Boolean operator: Boolean Operators are simple words (AND, OR, NOT or AND NOT) used as conjunctions to combine or exclude keywords in a search, resulting in more focused and productive results. This should save time and effort by eliminating inappropriate hits that must be scanned before discarding.
+
+Concatenation:combines two (or more) strings into a new string object.
+
+Condition: 
+
+Control Flow: the if, then, elif statements that will get the statement to function well
+
+Element: 
+
+Expression:
+
+Float:
+
+Function: command that is usually a collection of statements that perform some action
+
+Index: returns the lowest index in list that obj appears.
+
+Input:
+
+Integer:
+
+Invoke:
+
+Iterable:
+
+key:value
+
+List:
+
+Method:
+
+Objects: specifici instance of a class; python uses a certain part of the memory for this
+
+Operator: element used for mathematics or comparing values
+
+Parameters: value used with a function when calling it or when creating an object, parameters are also called argumetns.
+
+Self
+
+Snake case: the practice of writing compound words or phrases in which the elements are separated with one underscore character (_) and no spaces, with each element's initial letter usually lowercased within the compound and the first letter either upper or lower case
+
+String: collection of alphanumeric characters (letters, numbers, punctuation and whitespace
+
+Terminal
+
+Value: returns a list of all the values available in a given dictionary.
