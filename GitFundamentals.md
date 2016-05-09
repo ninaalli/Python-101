@@ -104,6 +104,18 @@ Ninas-Air:week1-day1 ninaalli$
    PULL- fetches changes from remote and combines them into the local repository
       if you are on your branch, do not PULL
       if you checkout to Master, it will merge all the branches, 
+         to get any changes you will have to merge it.
+         
+      ALWAYS BE AWARE OF THE BRANCH YOU ARE ON.
+      GitHub will try to find the differences prior to a commit so you can work on changes so there is no conflict (which you have to go in and resolve)
       
-      Always be aware of the branch you are on, GitHub will try to find the differences prior to a commit so you can work on changes so there is no conflict (which you have to go in and resolve)
+DAY 1 most important lessons:
+   Git
+      branch (have to be on the branch to do all of this)
+      checkout -b <branch name>
+      status
+      add <path to the file>
+      commit -m <message>
+      push <name of the remote><name of the branch>
       
+      git stash apply - will make it look like 
