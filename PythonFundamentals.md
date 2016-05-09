@@ -208,7 +208,22 @@ when you say something equals something r=r, it is in the local scope
 
 DONT USE GLOBAL, pass it in as a parameter
 
-For loop, while loop
-while loop runs until a condition is false
+!!For loop
+for <loop variable> in <collection>
 
+!!while loop runs until a condition is false, you control the condition.
+
+assignment has to happen before use, it doesnt exist before use. 
+
+Start, Stop, Step 
+(start is where it will begin)
+(stop is what place it will stop at)
+(step is how it will increment)
+Range is defined in the Builtin (DONT NAME IT THAT WAY)
+if you mess it up (del insert name here)
+
+recursive functions: fx that calls upon itself.
+
+Iteration with list, iteration with strings, 
+fibonacci, do all the 1's first
 
