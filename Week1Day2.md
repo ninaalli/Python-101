@@ -52,4 +52,4 @@ Above is all for lists and data structures.
 
 BE CONSISTENT IN THE CODE>DO NOT SPEND EXTRA BANDWIDTH ON FIGURING IT OUT
 
-todays lesson: sorted, different dictionaries for lists, order
+todays lesson: sorted, different dictionaries for lists, order, list comprehensions
