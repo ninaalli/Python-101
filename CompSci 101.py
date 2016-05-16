@@ -95,3 +95,6 @@ make them modular - pull a section of code and replace it with ease
 recursion lets you go back to the function that called it
 
 linear search, bubble sort
+
+-mtimeit
+usec = microseconds
