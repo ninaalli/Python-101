@@ -5,11 +5,11 @@ constant time to go over something
 O(1) - for every time the individual operation will take.
   the Big O on this is O(3n)
   
-|
-n|
-|
-|
-|____________________________
+  |
+n |
+  |
+  |
+  |____________________________
     Operations
     
   The only one concerning us is the most significant value
