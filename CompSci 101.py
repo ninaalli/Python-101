@@ -79,3 +79,19 @@ Space Complexity is amount of space
 reset the list as it moves from head to the none
 nl.oldhead is the head of the list, next = current.next, keep pushing the top one all the way down
 
+to check if something is in a tuple, its easy, bc Python will create a new item. 
+Dictionary. lists
+
+namedtuple: 
+  collections.namedtuple("Node",["data", "next"]
+  for linked list
+  
+named tuple is immutable
+better for documents
+
+what is each object allow to do and not do?
+make them modular - pull a section of code and replace it with ease
+
+recursion lets you go back to the function that called it
+
+linear search, bubble sort
