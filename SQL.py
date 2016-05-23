@@ -10,7 +10,8 @@ create table "tablename"
         [constraint]);
  [ ] = optional
  
- Here are the most common Data types:
+ 
+ Here are the MOST COMMON Data types:
 
 char(size)	Fixed-length character string. Size is specified in parenthesis. Max 255 bytes.
 varchar(size)	Variable-length character string. Max size is specified in parenthesis.
@@ -34,6 +35,19 @@ number(size,d)	Number value with a maximum number of digits of "size" total, wit
 <=	Less than or equal
 <>	Not equal to
 LIKE	*See note below
+
+
+You have just started a new company. It is time to hire some employees. You will need to create a table that will contain the following information about your new employees: firstname, lastname, title, age, and salary. After you create the table, you should receive a small form on the screen with the appropriate column names. If you are missing any columns, you need to double check your SQL statement and recreate the table. Once it's created successfully, go to the "Insert" lesson.
+
+create table 
+  myemployees_ts0211
+(firstname varchar(30),
+ lastname varchar(30),
+ title varchar(30),
+ age number(2),
+ salary number(8,2));
+
+
 
 HOW TO SEARCH:
 Display everyone's first name and their age for everyone that's in table.
